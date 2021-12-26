@@ -1,3 +1,82 @@
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'CookieRunOTF-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#login{
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -200px;
+  width: 500px;
+  height: 300px;
+}
+#greeting{
+ font-family: 'CookieRunOTF-Black';
+ font-size: 80px;
+ text-align: center;
+}
+#login-form input{
+  font-family: 'CookieRun-Regular';
+  background-color: transparent;
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  text-align: center;
+}
+#quote{
+  width: 800px;
+  position: fixed;
+  left: 50%;
+  bottom: 15%;
+  margin-left: -350px;
+  font-family: 'CookieRun-Regular';
+  font-size: 25px;
+  text-align: center;
+}
 .hidden{
     display: none;
-  }
+}
+#clock{
+  font-family: 'CookieRunOTF-Black';
+  font-size: 40px;
+}
+#weather{
+  position: fixed;
+  top: 2%;
+  right: 2%;
+}
+#weather ul{
+  text-align: right;
+}
+#todo-form input{
+  font-family: 'CookieRun-Regular';
+  background-color: transparent;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  text-align: center;
+}
+li{
+  list-style: none;
+  font-family: 'CookieRun-Regular';
+  font-size: 15px;
+}
+#todo-list button{
+  background-color: transparent;
+  border: none;
+}
